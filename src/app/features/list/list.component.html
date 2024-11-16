@@ -1,9 +1,12 @@
-<p>list</p>
+@for (product of products; track product.id) {
+<mat-card>
+  <mat-card-header>
+    <mat-card-title> {{product.title}}</mat-card-title>
+  </mat-card-header>
 
-<ul>
-  @for (product of products; track product.id) {
-  <li>
-    {{product.title}}
-  </li>
-  }
-</ul>
+  <mat-card-actions>
+    <button mat-button>Editar</button>
+    <button mat-button>Deletar</button>
+  </mat-card-actions>
+</mat-card>
+}
