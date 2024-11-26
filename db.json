@@ -1,12 +1,12 @@
 {
   "products": [
     {
-      "title": "produto de  teste 2",
+      "title": "kayuan",
       "id": "1"
     },
     {
-      "id": "f373",
-      "title": "teste"
+      "isTrusted": true,
+      "id": "f373"
     },
     {
       "id": "06bc",
@@ -23,6 +23,10 @@
     {
       "id": "0ebd",
       "title": "teste3"
+    },
+    {
+      "title": "produto teste",
+      "id": "8e6c"
     }
   ]
 }
